@@ -6842,6 +6842,18 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="60R"/>
 <part name="C10" library="rcl" deviceset="C-EU" device="C0603K" value="47p"/>
 <part name="GND10" library="supply1" deviceset="GNDA" device=""/>
+<part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C13" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0805K" value="10u"/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="C15" library="rcl" deviceset="C-EU" device="C0603" value="10n"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0805" value="22R"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0805" value="22R"/>
 </parts>
 <sheets>
 <sheet>
@@ -6851,12 +6863,14 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 <wire x1="40.64" y1="-20.32" x2="193.04" y2="-20.32" width="0.3048" layer="97"/>
 <wire x1="193.04" y1="-20.32" x2="193.04" y2="48.26" width="0.3048" layer="97"/>
 <text x="109.22" y="38.1" size="6.4516" layer="97">CAN</text>
+<text x="-48.26" y="121.92" size="1.778" layer="97">1uF needed if no
+analog periph used?</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="106.68" y="7.62"/>
-<instance part="GND1" gate="1" x="-53.34" y="63.5"/>
+<instance part="GND1" gate="1" x="-53.34" y="68.58"/>
 <instance part="K1" gate="G$1" x="-66.04" y="78.74" rot="MR0"/>
-<instance part="P+1" gate="VCC" x="-53.34" y="91.44"/>
+<instance part="P+1" gate="VCC" x="-53.34" y="88.9"/>
 <instance part="C1" gate="G$1" x="71.12" y="5.08" smashed="yes">
 <attribute name="NAME" x="67.564" y="5.461" size="1.778" layer="95"/>
 <attribute name="VALUE" x="66.04" y="0.508" size="1.778" layer="96"/>
@@ -6868,22 +6882,22 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 <instance part="GND2" gate="1" x="73.66" y="-10.16"/>
 <instance part="GND3" gate="1" x="83.82" y="-10.16"/>
 <instance part="P+2" gate="VCC" x="55.88" y="27.94"/>
-<instance part="IC2" gate="G$1" x="-40.64" y="124.46" smashed="yes">
-<attribute name="NAME" x="-39.878" y="116.84" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-51.562" y="127.508" size="1.778" layer="96"/>
+<instance part="IC2" gate="G$1" x="-48.26" y="180.34" smashed="yes">
+<attribute name="NAME" x="-47.498" y="172.72" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-59.182" y="183.388" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="-40.64" y="106.68"/>
-<instance part="C3" gate="G$1" x="-50.8" y="119.38" smashed="yes">
-<attribute name="NAME" x="-49.276" y="119.761" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-49.276" y="114.427" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="-48.26" y="162.56"/>
+<instance part="C3" gate="G$1" x="-58.42" y="175.26" smashed="yes">
+<attribute name="NAME" x="-56.896" y="175.641" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-56.896" y="170.307" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="-30.48" y="119.38"/>
+<instance part="C4" gate="G$1" x="-38.1" y="175.26"/>
 <instance part="C5" gate="G$1" x="58.42" y="5.08" smashed="yes">
 <attribute name="NAME" x="59.944" y="5.461" size="1.778" layer="95"/>
 <attribute name="VALUE" x="59.944" y="0.381" size="1.778" layer="96"/>
 </instance>
-<instance part="P+3" gate="VCC" x="-55.88" y="132.08"/>
-<instance part="+3V1" gate="G$1" x="-27.94" y="132.08"/>
+<instance part="P+3" gate="VCC" x="-63.5" y="187.96"/>
+<instance part="+3V1" gate="G$1" x="-35.56" y="187.96"/>
 <instance part="C6" gate="G$1" x="53.34" y="5.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="51.816" y="5.461" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="51.816" y="0.127" size="1.778" layer="96" rot="MR0"/>
@@ -6907,12 +6921,12 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 <attribute name="VALUE" x="149.352" y="0.635" size="1.778" layer="96"/>
 </instance>
 <instance part="U$1" gate="G$1" x="30.48" y="162.56"/>
-<instance part="U$1" gate="G$2" x="68.58" y="172.72"/>
-<instance part="U$1" gate="G$3" x="71.12" y="139.7"/>
-<instance part="U$1" gate="G$5" x="71.12" y="121.92"/>
+<instance part="U$1" gate="G$2" x="-43.18" y="142.24"/>
+<instance part="U$1" gate="G$3" x="12.7" y="93.98"/>
+<instance part="U$1" gate="G$5" x="88.9" y="111.76"/>
 <instance part="U$1" gate="G$6" x="134.62" y="116.84"/>
 <instance part="U$1" gate="G$4" x="132.08" y="162.56"/>
-<instance part="U$1" gate="G$7" x="185.42" y="121.92"/>
+<instance part="U$1" gate="G$7" x="228.6" y="137.16"/>
 <instance part="U$1" gate="G$8" x="190.5" y="93.98"/>
 <instance part="U$1" gate="G$9" x="195.58" y="66.04"/>
 <instance part="K2" gate="G$1" x="185.42" y="20.32" rot="MR90"/>
@@ -6924,6 +6938,24 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 <instance part="R3" gate="G$1" x="165.1" y="12.7" rot="R90"/>
 <instance part="C10" gate="G$1" x="162.56" y="0"/>
 <instance part="GND10" gate="1" x="162.56" y="-10.16"/>
+<instance part="C11" gate="G$1" x="5.08" y="172.72"/>
+<instance part="C12" gate="G$1" x="15.24" y="172.72"/>
+<instance part="C13" gate="G$1" x="17.78" y="152.4" rot="MR0"/>
+<instance part="C14" gate="G$1" x="-5.08" y="172.72"/>
+<instance part="GND11" gate="1" x="5.08" y="142.24"/>
+<instance part="GND12" gate="1" x="17.78" y="142.24"/>
+<instance part="+3V3" gate="G$1" x="5.08" y="187.96"/>
+<instance part="GND13" gate="1" x="-27.94" y="132.08"/>
+<instance part="+3V4" gate="G$1" x="-27.94" y="154.94"/>
+<instance part="C15" gate="G$1" x="-22.86" y="142.24"/>
+<instance part="R4" gate="G$1" x="-45.72" y="78.74" smashed="yes">
+<attribute name="NAME" x="-49.53" y="80.2386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-44.45" y="80.518" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="-45.72" y="76.2" smashed="yes">
+<attribute name="NAME" x="-49.53" y="72.6186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-44.45" y="72.898" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6932,17 +6964,17 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 <segment>
 <pinref part="K1" gate="G$1" pin="VCC"/>
 <wire x1="-55.88" y1="81.28" x2="-53.34" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="81.28" x2="-53.34" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="81.28" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="IN"/>
-<wire x1="-48.26" y1="124.46" x2="-50.8" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="124.46" x2="-55.88" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="124.46" x2="-55.88" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="180.34" x2="-58.42" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="180.34" x2="-63.5" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-63.5" y1="180.34" x2="-63.5" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="-50.8" y1="121.92" x2="-50.8" y2="124.46" width="0.1524" layer="91"/>
-<junction x="-50.8" y="124.46"/>
+<wire x1="-58.42" y1="177.8" x2="-58.42" y2="180.34" width="0.1524" layer="91"/>
+<junction x="-58.42" y="180.34"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 </segment>
 <segment>
@@ -6963,7 +6995,7 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 <segment>
 <pinref part="K1" gate="G$1" pin="GND"/>
 <wire x1="-55.88" y1="73.66" x2="-53.34" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-53.34" y1="73.66" x2="-53.34" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="73.66" x2="-53.34" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -6999,16 +7031,16 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="ADJ"/>
-<wire x1="-40.64" y1="116.84" x2="-40.64" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="172.72" x2="-48.26" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="-40.64" y1="111.76" x2="-40.64" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="114.3" x2="-50.8" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-50.8" y1="111.76" x2="-40.64" y2="111.76" width="0.1524" layer="91"/>
-<junction x="-40.64" y="111.76"/>
+<wire x1="-48.26" y1="167.64" x2="-48.26" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="170.18" x2="-58.42" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="167.64" x2="-48.26" y2="167.64" width="0.1524" layer="91"/>
+<junction x="-48.26" y="167.64"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="-40.64" y1="111.76" x2="-30.48" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="111.76" x2="-30.48" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="167.64" x2="-38.1" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="167.64" x2="-38.1" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -7018,6 +7050,43 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 <wire x1="55.88" y1="0" x2="58.42" y2="0" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-7.62" x2="55.88" y2="0" width="0.1524" layer="91"/>
 <junction x="55.88" y="0"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VSS@2"/>
+<wire x1="5.08" y1="160.02" x2="20.32" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VSS@1"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="165.1" x2="15.24" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="165.1" x2="5.08" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="165.1" x2="-5.08" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="165.1" x2="-5.08" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="5.08" y1="167.64" x2="5.08" y2="165.1" width="0.1524" layer="91"/>
+<junction x="5.08" y="165.1"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="167.64" x2="15.24" y2="165.1" width="0.1524" layer="91"/>
+<junction x="15.24" y="165.1"/>
+<wire x1="5.08" y1="160.02" x2="5.08" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="5.08" y1="144.78" x2="5.08" y2="160.02" width="0.1524" layer="91"/>
+<junction x="5.08" y="160.02"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VSS@3"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="20.32" y1="147.32" x2="17.78" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="17.78" y1="144.78" x2="17.78" y2="147.32" width="0.1524" layer="91"/>
+<junction x="17.78" y="147.32"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="-27.94" y1="134.62" x2="-27.94" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$2" pin="VSSA"/>
+<wire x1="-27.94" y1="137.16" x2="-33.02" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="-27.94" y1="137.16" x2="-22.86" y2="137.16" width="0.1524" layer="91"/>
+<junction x="-27.94" y="137.16"/>
 </segment>
 </net>
 <net name="CAN_TXD" class="0">
@@ -7037,12 +7106,12 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 <net name="+3V3" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="OUT"/>
-<wire x1="-33.02" y1="124.46" x2="-30.48" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-30.48" y1="124.46" x2="-27.94" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-27.94" y1="124.46" x2="-27.94" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="180.34" x2="-38.1" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="180.34" x2="-35.56" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="180.34" x2="-35.56" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="-30.48" y1="121.92" x2="-30.48" y2="124.46" width="0.1524" layer="91"/>
-<junction x="-30.48" y="124.46"/>
+<wire x1="-38.1" y1="177.8" x2="-38.1" y2="180.34" width="0.1524" layer="91"/>
+<junction x="-38.1" y="180.34"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -7056,6 +7125,36 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 <junction x="73.66" y="7.62"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <junction x="73.66" y="17.78"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDD@2"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="175.26" x2="15.24" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="175.26" x2="5.08" y2="175.26" width="0.1524" layer="91"/>
+<junction x="15.24" y="175.26"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="175.26" x2="-5.08" y2="175.26" width="0.1524" layer="91"/>
+<junction x="5.08" y="175.26"/>
+<wire x1="5.08" y1="175.26" x2="5.08" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VDD@1"/>
+<wire x1="5.08" y1="180.34" x2="20.32" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="5.08" y1="180.34" x2="5.08" y2="185.42" width="0.1524" layer="91"/>
+<junction x="5.08" y="180.34"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$2" pin="VBAT"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="-33.02" y1="147.32" x2="-27.94" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="147.32" x2="-27.94" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$2" pin="VDDA"/>
+<wire x1="-33.02" y1="142.24" x2="-27.94" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="142.24" x2="-27.94" y2="147.32" width="0.1524" layer="91"/>
+<junction x="-27.94" y="147.32"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="144.78" x2="-22.86" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="147.32" x2="-27.94" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GNDA" class="0">
@@ -7165,6 +7264,65 @@ Created 2014-06-05, Karrer Zheng&lt;br&gt;
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="162.56" y1="5.08" x2="162.56" y2="2.54" width="0.1524" layer="91"/>
 <junction x="162.56" y="5.08"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="VDDIO2"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="154.94" x2="17.78" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_DM" class="0">
+<segment>
+<pinref part="U$1" gate="G$7" pin="PA11(CAN_RX/CTS1/T1_CH4/USB_DM)"/>
+<wire x1="200.66" y1="137.16" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
+<label x="195.58" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="-40.64" y1="78.74" x2="-35.56" y2="78.74" width="0.1524" layer="91"/>
+<label x="-35.56" y="78.74" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="USB_DP" class="0">
+<segment>
+<pinref part="U$1" gate="G$7" pin="PA12(CAN_TX/RTS1/USB_DP)"/>
+<wire x1="200.66" y1="134.62" x2="195.58" y2="134.62" width="0.1524" layer="91"/>
+<label x="195.58" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="-40.64" y1="76.2" x2="-35.56" y2="76.2" width="0.1524" layer="91"/>
+<label x="-35.56" y="76.2" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN_RX" class="0">
+<segment>
+<pinref part="U$1" gate="G$9" pin="(CAN_RX/T16_CH1/SCL1)PB8"/>
+<wire x1="223.52" y1="73.66" x2="228.6" y2="73.66" width="0.1524" layer="91"/>
+<label x="228.6" y="73.66" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN_TX" class="0">
+<segment>
+<pinref part="U$1" gate="G$9" pin="(CAN_TX/IR_OUT/T17_CH1/!SS!2/SDA1)PB9"/>
+<wire x1="223.52" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
+<label x="228.6" y="71.12" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="K1" gate="G$1" pin="D-"/>
+<wire x1="-55.88" y1="78.74" x2="-50.8" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="K1" gate="G$1" pin="D+"/>
+<wire x1="-55.88" y1="76.2" x2="-50.8" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
