@@ -165,94 +165,6 @@
 </package>
 </packages>
 </library>
-<library name="Wuerth_Elektronik_eiCan_Communication_Connectors">
-<description>&lt;BR&gt;Würth Elektronik -- Electronic Interconnect &amp; Electromechanical Solutions&lt;br&gt;&lt;Hr&gt;
-&lt;BR&gt;&lt;BR&gt; 
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-405&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com"&gt;http://www.we-online.com&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:pm.hotline@we-online.de"&gt;pm.hotline@we-online.de&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither CadSoft nor WE-eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-&lt;hr&gt;
-Version 1.0,  Feb 7th 2011
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="61400416021">
-<description>WR-COM Horizontal USB Type A</description>
-<wire x1="-7.05" y1="-10.3" x2="7.05" y2="-10.3" width="0.127" layer="21"/>
-<wire x1="7.05" y1="-10.3" x2="7.05" y2="4.1" width="0.127" layer="51"/>
-<wire x1="7.05" y1="4.1" x2="-7.05" y2="4.1" width="0.127" layer="21"/>
-<wire x1="-7.05" y1="4.1" x2="-7.05" y2="-10.3" width="0.127" layer="51"/>
-<pad name="5" x="-6.57" y="0" drill="2.3"/>
-<pad name="6" x="6.57" y="0" drill="2.3"/>
-<pad name="3" x="1" y="2.7" drill="0.92"/>
-<pad name="2" x="-1" y="2.7" drill="0.92"/>
-<pad name="4" x="3.5" y="2.7" drill="0.92"/>
-<pad name="1" x="-3.5" y="2.7" drill="0.92"/>
-<text x="-13.952" y="8.8309" size="1.27" layer="25">&gt;NAME</text>
-<text x="-13.952" y="-12.273" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 <library name="rcl">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -2722,6 +2634,56 @@ chip</description>
 <wire x1="3.1" y1="1.9" x2="3.1" y2="-1.9" width="0.127" layer="21"/>
 <wire x1="3.1" y1="-1.9" x2="-3" y2="-1.9" width="0.127" layer="21"/>
 </package>
+<package name="USB_A_MALE_SMD">
+<hole x="0" y="0" drill="1.2"/>
+<hole x="4.5" y="0" drill="1.2"/>
+<smd name="3" x="1.25" y="2.3" dx="1" dy="3.2" layer="1"/>
+<smd name="2" x="3.25" y="2.3" dx="1" dy="3.2" layer="1"/>
+<smd name="4" x="-1.25" y="2.3" dx="1" dy="3.2" layer="1"/>
+<smd name="1" x="5.75" y="2.3" dx="1" dy="3.2" layer="1"/>
+<polygon width="0.01" layer="1">
+<vertex x="-2.85" y="0.7"/>
+<vertex x="-2.85" y="-0.9" curve="-90"/>
+<vertex x="-3.6" y="-1.65" curve="-90"/>
+<vertex x="-4.35" y="-0.9"/>
+<vertex x="-4.35" y="0.7" curve="-90"/>
+<vertex x="-3.6" y="1.45" curve="-90"/>
+</polygon>
+<wire x1="-4.05" y1="0.75" x2="-4.05" y2="-0.95" width="0.01" layer="20"/>
+<wire x1="-3.15" y1="0.75" x2="-3.15" y2="-0.95" width="0.01" layer="20"/>
+<wire x1="-4.05" y1="0.75" x2="-3.15" y2="0.75" width="0.01" layer="20" curve="-180"/>
+<wire x1="-3.15" y1="-0.95" x2="-4.05" y2="-0.95" width="0.01" layer="20" curve="-180"/>
+<polygon width="0.01" layer="1">
+<vertex x="8.85" y="0.7"/>
+<vertex x="8.85" y="-0.9" curve="-90"/>
+<vertex x="8.1" y="-1.65" curve="-90"/>
+<vertex x="7.35" y="-0.9"/>
+<vertex x="7.35" y="0.7" curve="-90"/>
+<vertex x="8.1" y="1.45" curve="-90"/>
+</polygon>
+<wire x1="7.65" y1="0.75" x2="7.65" y2="-0.95" width="0.01" layer="20"/>
+<wire x1="8.55" y1="0.75" x2="8.55" y2="-0.95" width="0.01" layer="20"/>
+<wire x1="7.65" y1="0.75" x2="8.55" y2="0.75" width="0.01" layer="20" curve="-180"/>
+<wire x1="8.55" y1="-0.95" x2="7.65" y2="-0.95" width="0.01" layer="20" curve="-180"/>
+<wire x1="-3.6" y1="-3" x2="8.1" y2="-3" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-3" x2="-3.6" y2="-17.7" width="0.1" layer="21"/>
+<wire x1="-3.6" y1="-17.7" x2="8.1" y2="-17.7" width="0.1" layer="21"/>
+<wire x1="8.1" y1="-17.7" x2="8.1" y2="-3" width="0.1" layer="21"/>
+<wire x1="-2.55" y1="-14" x2="0.55" y2="-14" width="0.1" layer="21"/>
+<wire x1="0.55" y1="-14" x2="0.55" y2="-11.4" width="0.1" layer="21"/>
+<wire x1="0.55" y1="-11.4" x2="-2.55" y2="-11.4" width="0.1" layer="21"/>
+<wire x1="-2.55" y1="-11.4" x2="-2.55" y2="-14" width="0.1" layer="21"/>
+<wire x1="3.9" y1="-14" x2="7" y2="-14" width="0.1" layer="21"/>
+<wire x1="7" y1="-14" x2="7" y2="-11.4" width="0.1" layer="21"/>
+<wire x1="7" y1="-11.4" x2="3.9" y2="-11.4" width="0.1" layer="21"/>
+<wire x1="3.9" y1="-11.4" x2="3.9" y2="-14" width="0.1" layer="21"/>
+<wire x1="-3.6" y1="-3" x2="-3.6" y2="1.1" width="0.05" layer="21"/>
+<wire x1="-3.6" y1="1.1" x2="8.1" y2="1.1" width="0.05" layer="21"/>
+<wire x1="8.1" y1="1.1" x2="8.1" y2="-3" width="0.05" layer="21"/>
+<smd name="SHIELD1" x="-3.6" y="-0.05" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="SHIELD2" x="8.1" y="-0.1" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<text x="-1.3" y="-2.85" size="1" layer="51" ratio="17">PCB Edge</text>
+</package>
 </packages>
 </library>
 <library name="testpad">
@@ -2960,7 +2922,6 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="IC1" library="ADM3053" package="SO20W" value="ADM3053M" x="33.8" y="8" rot="R270"/>
-<element name="K1" library="Wuerth_Elektronik_eiCan_Communication_Connectors" package="61400416021" value="61400416021" x="2.6" y="9" rot="R270"/>
 <element name="C1" library="rcl" package="C0603K" value="10n" x="23.6" y="82.2"/>
 <element name="C2" library="rcl" package="C0603K" value="100n" x="4.4" y="72.2"/>
 <element name="IC2" library="v-reg" package="SOT223" value="LD117AS33TR" x="8" y="30.8" rot="R180"/>
@@ -3000,23 +2961,23 @@ design rules under a new name.</description>
 </element>
 <element name="LED1" library="led" package="CHIPLED_0603" value="GREEN" x="-12.6" y="-70.2"/>
 <element name="R5" library="resistor" package="R0603" value="330R" x="-13.4" y="-74.8"/>
+<element name="CON1" library="micro_switch" package="USB_A_MALE_SMD" value="USB_A_MALESMD" x="-23.8" y="-76.8"/>
 </elements>
 <signals>
 <signal name="VCC">
-<contactref element="K1" pad="1"/>
 <contactref element="IC2" pad="3"/>
 <contactref element="C3" pad="1"/>
 <contactref element="IC1" pad="8"/>
 <contactref element="C5" pad="1"/>
 <contactref element="C6" pad="1"/>
+<contactref element="CON1" pad="1"/>
 <wire x1="35.325" y1="82.2" x2="40.325" y2="82.2" width="0" layer="19" extent="1-1"/>
 <wire x1="12.4" y1="72.2" x2="35.325" y2="82.2" width="0" layer="19" extent="1-1"/>
 <wire x1="5.7" y1="33.95" x2="12.4" y2="72.2" width="0" layer="19" extent="1-1"/>
-<wire x1="5.3" y1="12.5" x2="5.7" y2="33.95" width="0" layer="19" extent="1-1"/>
-<wire x1="28.2708" y1="4.825" x2="5.3" y2="12.5" width="0" layer="19" extent="1-1"/>
+<wire x1="28.2708" y1="4.825" x2="5.7" y2="33.95" width="0" layer="19" extent="1-1"/>
+<wire x1="-18.05" y1="-74.5" x2="28.2708" y2="4.825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
-<contactref element="K1" pad="4"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C2" pad="2"/>
 <contactref element="IC1" pad="1"/>
@@ -3046,6 +3007,7 @@ design rules under a new name.</description>
 <contactref element="R4" pad="1"/>
 <contactref element="TP3" pad="TP"/>
 <contactref element="R5" pad="1"/>
+<contactref element="CON1" pad="4"/>
 <wire x1="37.075" y1="82.2" x2="42.075" y2="82.2" width="0" layer="19" extent="1-1"/>
 <wire x1="24.475" y1="82.2" x2="37.075" y2="82.2" width="0" layer="19" extent="1-1"/>
 <wire x1="18.2" y1="72.2" x2="24.475" y2="82.2" width="0" layer="19" extent="1-1"/>
@@ -3062,8 +3024,7 @@ design rules under a new name.</description>
 <wire x1="28.2708" y1="2.285" x2="28.2708" y2="3.555" width="0" layer="19" extent="1-1"/>
 <wire x1="24.79619375" y1="6.985784375" x2="28.2708" y2="6.095" width="0" layer="19" extent="1-1"/>
 <wire x1="18.785784375" y1="3.803803125" x2="24.79619375" y2="6.985784375" width="0" layer="19" extent="1-1"/>
-<wire x1="5.3" y1="5.5" x2="16.664465625" y2="10.874871875" width="0" layer="19" extent="1-1"/>
-<wire x1="-7.75" y1="-6" x2="5.3" y2="5.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-7.75" y1="-6" x2="18.785784375" y2="3.803803125" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.75" y1="-9.4" x2="-7.75" y2="-6" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.75" y1="-12.8" x2="-7.75" y2="-9.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-7.4" y1="-17.6" x2="-7.75" y2="-12.8" width="0" layer="19" extent="1-1"/>
@@ -3075,6 +3036,7 @@ design rules under a new name.</description>
 <wire x1="-9.45" y1="-53.4" x2="-9.1" y2="-48.8" width="0" layer="19" extent="1-1"/>
 <wire x1="-8.4" y1="-70.2" x2="-9.45" y2="-53.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.25" y1="-74.8" x2="-8.4" y2="-70.2" width="0" layer="19" extent="1-1"/>
+<wire x1="-25.05" y1="-74.5" x2="-14.25" y2="-74.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_TXD">
 <contactref element="IC1" pad="5"/>
@@ -3183,13 +3145,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="USB_DM">
 <contactref element="U$1" pad="32"/>
-<contactref element="K1" pad="2"/>
-<wire x1="5.3" y1="10" x2="23.73553125" y2="5.925125" width="0" layer="19" extent="1-1"/>
+<contactref element="CON1" pad="2"/>
+<wire x1="23.73553125" y1="5.925125" x2="-20.55" y2="-74.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB_DP">
 <contactref element="U$1" pad="33"/>
-<contactref element="K1" pad="3"/>
-<wire x1="5.3" y1="8" x2="24.089084375" y2="6.278678125" width="0" layer="19" extent="1-1"/>
+<contactref element="CON1" pad="3"/>
+<wire x1="24.089084375" y1="6.278678125" x2="-22.55" y2="-74.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_RX">
 <contactref element="U$1" pad="45"/>

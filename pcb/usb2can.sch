@@ -319,129 +319,6 @@ with Integrated Isolated DC-to-DC Converter</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Wuerth_Elektronik_eiCan_Communication_Connectors">
-<description>&lt;BR&gt;Würth Elektronik -- Electronic Interconnect &amp; Electromechanical Solutions&lt;br&gt;&lt;Hr&gt;
-&lt;BR&gt;&lt;BR&gt; 
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-405&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com"&gt;http://www.we-online.com&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:pm.hotline@we-online.de"&gt;pm.hotline@we-online.de&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither CadSoft nor WE-eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-&lt;hr&gt;
-Version 1.0,  Feb 7th 2011
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="61400416021">
-<description>WR-COM Horizontal USB Type A</description>
-<wire x1="-7.05" y1="-10.3" x2="7.05" y2="-10.3" width="0.127" layer="21"/>
-<wire x1="7.05" y1="-10.3" x2="7.05" y2="4.1" width="0.127" layer="51"/>
-<wire x1="7.05" y1="4.1" x2="-7.05" y2="4.1" width="0.127" layer="21"/>
-<wire x1="-7.05" y1="4.1" x2="-7.05" y2="-10.3" width="0.127" layer="51"/>
-<pad name="5" x="-6.57" y="0" drill="2.3"/>
-<pad name="6" x="6.57" y="0" drill="2.3"/>
-<pad name="3" x="1" y="2.7" drill="0.92"/>
-<pad name="2" x="-1" y="2.7" drill="0.92"/>
-<pad name="4" x="3.5" y="2.7" drill="0.92"/>
-<pad name="1" x="-3.5" y="2.7" drill="0.92"/>
-<text x="-13.952" y="8.8309" size="1.27" layer="25">&gt;NAME</text>
-<text x="-13.952" y="-12.273" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="4_USB">
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="-10.16" y="-5.08" length="middle" direction="pas"/>
-<pin name="D+" x="-10.16" y="-2.54" length="middle" direction="pas"/>
-<pin name="D-" x="-10.16" y="0" length="middle" direction="pas"/>
-<pin name="VCC" x="-10.16" y="2.54" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="61400416021" prefix="K">
-<description>WR-COM Horizontal USB Type A</description>
-<gates>
-<gate name="G$1" symbol="4_USB" x="2.54" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="61400416021">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rcl">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -9828,6 +9705,56 @@ type RDH, grid 15 mm</description>
 <wire x1="3.1" y1="1.9" x2="3.1" y2="-1.9" width="0.127" layer="21"/>
 <wire x1="3.1" y1="-1.9" x2="-3" y2="-1.9" width="0.127" layer="21"/>
 </package>
+<package name="USB_A_MALE_SMD">
+<hole x="0" y="0" drill="1.2"/>
+<hole x="4.5" y="0" drill="1.2"/>
+<smd name="3" x="1.25" y="2.3" dx="1" dy="3.2" layer="1"/>
+<smd name="2" x="3.25" y="2.3" dx="1" dy="3.2" layer="1"/>
+<smd name="4" x="-1.25" y="2.3" dx="1" dy="3.2" layer="1"/>
+<smd name="1" x="5.75" y="2.3" dx="1" dy="3.2" layer="1"/>
+<polygon width="0.01" layer="1">
+<vertex x="-2.85" y="0.7"/>
+<vertex x="-2.85" y="-0.9" curve="-90"/>
+<vertex x="-3.6" y="-1.65" curve="-90"/>
+<vertex x="-4.35" y="-0.9"/>
+<vertex x="-4.35" y="0.7" curve="-90"/>
+<vertex x="-3.6" y="1.45" curve="-90"/>
+</polygon>
+<wire x1="-4.05" y1="0.75" x2="-4.05" y2="-0.95" width="0.01" layer="20"/>
+<wire x1="-3.15" y1="0.75" x2="-3.15" y2="-0.95" width="0.01" layer="20"/>
+<wire x1="-4.05" y1="0.75" x2="-3.15" y2="0.75" width="0.01" layer="20" curve="-180"/>
+<wire x1="-3.15" y1="-0.95" x2="-4.05" y2="-0.95" width="0.01" layer="20" curve="-180"/>
+<polygon width="0.01" layer="1">
+<vertex x="8.85" y="0.7"/>
+<vertex x="8.85" y="-0.9" curve="-90"/>
+<vertex x="8.1" y="-1.65" curve="-90"/>
+<vertex x="7.35" y="-0.9"/>
+<vertex x="7.35" y="0.7" curve="-90"/>
+<vertex x="8.1" y="1.45" curve="-90"/>
+</polygon>
+<wire x1="7.65" y1="0.75" x2="7.65" y2="-0.95" width="0.01" layer="20"/>
+<wire x1="8.55" y1="0.75" x2="8.55" y2="-0.95" width="0.01" layer="20"/>
+<wire x1="7.65" y1="0.75" x2="8.55" y2="0.75" width="0.01" layer="20" curve="-180"/>
+<wire x1="8.55" y1="-0.95" x2="7.65" y2="-0.95" width="0.01" layer="20" curve="-180"/>
+<wire x1="-3.6" y1="-3" x2="8.1" y2="-3" width="0.2" layer="21"/>
+<wire x1="-3.6" y1="-3" x2="-3.6" y2="-17.7" width="0.1" layer="21"/>
+<wire x1="-3.6" y1="-17.7" x2="8.1" y2="-17.7" width="0.1" layer="21"/>
+<wire x1="8.1" y1="-17.7" x2="8.1" y2="-3" width="0.1" layer="21"/>
+<wire x1="-2.55" y1="-14" x2="0.55" y2="-14" width="0.1" layer="21"/>
+<wire x1="0.55" y1="-14" x2="0.55" y2="-11.4" width="0.1" layer="21"/>
+<wire x1="0.55" y1="-11.4" x2="-2.55" y2="-11.4" width="0.1" layer="21"/>
+<wire x1="-2.55" y1="-11.4" x2="-2.55" y2="-14" width="0.1" layer="21"/>
+<wire x1="3.9" y1="-14" x2="7" y2="-14" width="0.1" layer="21"/>
+<wire x1="7" y1="-14" x2="7" y2="-11.4" width="0.1" layer="21"/>
+<wire x1="7" y1="-11.4" x2="3.9" y2="-11.4" width="0.1" layer="21"/>
+<wire x1="3.9" y1="-11.4" x2="3.9" y2="-14" width="0.1" layer="21"/>
+<wire x1="-3.6" y1="-3" x2="-3.6" y2="1.1" width="0.05" layer="21"/>
+<wire x1="-3.6" y1="1.1" x2="8.1" y2="1.1" width="0.05" layer="21"/>
+<wire x1="8.1" y1="1.1" x2="8.1" y2="-3" width="0.05" layer="21"/>
+<smd name="SHIELD1" x="-3.6" y="-0.05" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="SHIELD2" x="8.1" y="-0.1" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<text x="-1.3" y="-2.85" size="1" layer="51" ratio="17">PCB Edge</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MICRO_SWITCH_3X6X2.5">
@@ -9847,6 +9774,18 @@ type RDH, grid 15 mm</description>
 <pin name="2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="1" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
+<symbol name="USB_A">
+<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="VBUS" x="10.16" y="2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="D-" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="D+" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="SHIELD1" x="-2.54" y="7.62" length="short" direction="pas" rot="R270"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<pin name="SHIELD2" x="-5.08" y="7.62" length="short" direction="pas" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="MICRO_SWITCH_3X6X2.5" prefix="S">
@@ -9858,6 +9797,26 @@ type RDH, grid 15 mm</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB_A_MALE" prefix="CON">
+<gates>
+<gate name="G$1" symbol="USB_A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="USB_A_MALE_SMD">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SHIELD1" pad="SHIELD1"/>
+<connect gate="G$1" pin="SHIELD2" pad="SHIELD2"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12076,7 +12035,6 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="IC1" library="ADM3053" deviceset="ADM3053" device="M"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="K1" library="Wuerth_Elektronik_eiCan_Communication_Connectors" deviceset="61400416021" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603K" value="10n"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603K" value="100n"/>
@@ -12138,6 +12096,7 @@ Source: www.kingbright.com</description>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R0603" value="330R"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="CON1" library="micro_switch" deviceset="USB_A_MALE" device="SMD"/>
 </parts>
 <sheets>
 <sheet>
@@ -12181,7 +12140,6 @@ be used.</text>
 <instances>
 <instance part="IC1" gate="G$1" x="106.68" y="7.62"/>
 <instance part="GND1" gate="1" x="-53.34" y="68.58"/>
-<instance part="K1" gate="G$1" x="-66.04" y="78.74" rot="MR0"/>
 <instance part="P+1" gate="VCC" x="-53.34" y="88.9"/>
 <instance part="C1" gate="G$1" x="71.12" y="5.08" smashed="yes">
 <attribute name="NAME" x="67.564" y="5.461" size="1.778" layer="95"/>
@@ -12294,16 +12252,17 @@ be used.</text>
 <instance part="+3V8" gate="G$1" x="-22.86" y="187.96"/>
 <instance part="R5" gate="G$1" x="-22.86" y="167.64" rot="R90"/>
 <instance part="GND18" gate="1" x="-22.86" y="157.48"/>
+<instance part="CON1" gate="G$1" x="-66.04" y="78.74"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="VCC" class="0">
 <segment>
-<pinref part="K1" gate="G$1" pin="VCC"/>
 <wire x1="-55.88" y1="81.28" x2="-53.34" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="81.28" x2="-53.34" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
+<pinref part="CON1" gate="G$1" pin="VBUS"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="IN"/>
@@ -12331,10 +12290,10 @@ be used.</text>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="K1" gate="G$1" pin="GND"/>
 <wire x1="-55.88" y1="73.66" x2="-53.34" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="73.66" x2="-53.34" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="CON1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -12680,8 +12639,8 @@ be used.</text>
 </segment>
 <segment>
 <label x="-50.8" y="78.74" size="1.27" layer="95" xref="yes"/>
-<pinref part="K1" gate="G$1" pin="D-"/>
 <wire x1="-55.88" y1="78.74" x2="-50.8" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="CON1" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="USB_DP" class="0">
@@ -12692,8 +12651,8 @@ be used.</text>
 </segment>
 <segment>
 <label x="-50.8" y="76.2" size="1.27" layer="95" xref="yes"/>
-<pinref part="K1" gate="G$1" pin="D+"/>
 <wire x1="-50.8" y1="76.2" x2="-55.88" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="CON1" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="CAN_RX" class="0">
