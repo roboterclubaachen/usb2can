@@ -12512,15 +12512,15 @@ Source: www.kingbright.com</description>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND6" library="supply1" deviceset="GNDA" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="8.2k"/>
 <part name="GND7" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND8" library="supply1" deviceset="GNDA" device=""/>
 <part name="C9" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="U$1" library="stm32" deviceset="STM32F072C" device="T"/>
 <part name="GND9" library="supply1" deviceset="GNDA" device=""/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="60R"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="60R"/>
-<part name="C10" library="rcl" deviceset="C-EU" device="C0603K" value="47p"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="56R"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="56R"/>
+<part name="C10" library="rcl" deviceset="C-EU" device="C0603K" value="47n"/>
 <part name="GND10" library="supply1" deviceset="GNDA" device=""/>
 <part name="C11" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="C12" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
@@ -12560,17 +12560,17 @@ Source: www.kingbright.com</description>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805K" value="10u"/>
 <part name="C19" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="GND19" library="supply1" deviceset="GNDA" device=""/>
-<part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="GREEN"/>
+<part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="BLUE"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="R0603" value="330R"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="R0603" value="33R"/>
 <part name="S3" library="micro_switch" deviceset="MICRO_SWITCH_3X6X2.5" device="S"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="LED3" library="led" deviceset="LED" device="CHIPLED_0603" value="GREEN"/>
+<part name="LED3" library="led" deviceset="LED" device="CHIPLED_0603" value="RED"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="R8" library="resistor" deviceset="R-EU_" device="R0603" value="330R"/>
-<part name="LED4" library="led" deviceset="LED" device="CHIPLED_0603" value="GREEN"/>
+<part name="LED4" library="led" deviceset="LED" device="CHIPLED_0603" value="WHITE"/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="R9" library="resistor" deviceset="R-EU_" device="R0603" value="330R"/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="R0603" value="33R"/>
 <part name="LED5" library="led" deviceset="LED" device="CHIPLED_0603" value="GREEN"/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="R10" library="resistor" deviceset="R-EU_" device="R0603" value="330R"/>
