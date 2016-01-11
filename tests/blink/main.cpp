@@ -33,6 +33,6 @@ int main(void)
 		LedBlue::toggle();
 		LedWhite::toggle();
 		LedGreen::toggle();
-		xpcc::delayMilliseconds(1000);
+		xpcc::delayMilliseconds(ButtonMode::read() ? 100 : 300);
 	}
 }

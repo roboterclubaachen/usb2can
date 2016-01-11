@@ -69,7 +69,7 @@ using LedMode1 = Led4;
 using LedMode  = xpcc::SoftwareGpioPort<LedMode1, LedMode0>;
 
 // button name from schematic
-using Button3 = GpioInputB5;	// has external 10k pullup
+using Button3 = xpcc::GpioInverted<GpioInputB5>;	// has external 10k pullup
 using ButtonMode = Button3;
 
 inline bool
