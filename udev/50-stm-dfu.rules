@@ -1,0 +1,9 @@
+# Copy this file to /etc/udev/rules.d/
+
+ACTION!="add|change", GOTO="stm32_rules_end"
+SUBSYSTEM!="usb|tty|hidraw", GOTO="stm32_rules_end"
+
+# STMicroelectronics STM Device in DFU Mode
+ATTRS{idVendor}=="0483", ATTRS{idProduct}=="df11", MODE="664", GROUP="plugdev"
+
+LABEL="stm32_rules_end"
