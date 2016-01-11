@@ -50,10 +50,10 @@ struct DummyClock {
 using DefaultSystemClock = DummyClock<48 * 1000 * 1000>;
 
 // led names from schematic
-using Led2 = GpioOutputA1;
-using Led3 = GpioOutputA2;
-using Led4 = GpioOutputA0;
-using Led5 = GpioOutputB3;
+using Led2 = xpcc::GpioInverted<GpioOutputA1>;
+using Led3 = xpcc::GpioInverted<GpioOutputA2>;
+using Led4 = xpcc::GpioInverted<GpioOutputA0>;
+using Led5 = xpcc::GpioInverted<GpioOutputB3>;
 
 // colors from schematic
 using LedBlue  = Led2;
@@ -110,9 +110,6 @@ initialize()
 	enableHSI48();
 	switchSystemClockToHSI48();
 	xpcc::cortex::SysTickTimer::initialize<DefaultSystemClock>();
-
-
-
 
 	Led2::setOutput(xpcc::Gpio::Low);
 	Led3::setOutput(xpcc::Gpio::Low);
