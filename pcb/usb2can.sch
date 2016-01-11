@@ -13266,22 +13266,23 @@ UART</text>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="7.62" x2="142.24" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="7.62" x2="144.78" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="7.62" x2="142.24" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="7.62" x2="142.24" y2="10.16" width="0.1524" layer="91"/>
 <junction x="142.24" y="7.62"/>
 <pinref part="IC1" gate="G$1" pin="V_ISOOUT"/>
+<wire x1="142.24" y1="10.16" x2="142.24" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="12.7" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="7.62" x2="152.4" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="7.62" x2="154.94" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="7.62" x2="152.4" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="7.62" x2="152.4" y2="10.16" width="0.1524" layer="91"/>
 <junction x="152.4" y="7.62"/>
 <pinref part="IC1" gate="G$1" pin="V_ISOIN"/>
+<wire x1="152.4" y1="10.16" x2="152.4" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="15.24" x2="119.38" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="10.16" x2="152.4" y2="10.16" width="0.1524" layer="91"/>
+<junction x="142.24" y="10.16"/>
+<junction x="152.4" y="10.16"/>
 </segment>
 </net>
 <net name="N$9" class="0">
