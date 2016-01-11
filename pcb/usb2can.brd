@@ -3189,14 +3189,14 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C8" library="rcl" package="C0805K" value="10u" x="50.8" y="2.5" rot="R270"/>
 <element name="C19" library="rcl" package="C0805K" value="100n" x="52.6" y="2.5" rot="R270"/>
 <element name="LED2" library="led" package="CHIPLED_0603" value="BLUE" x="29.9" y="4.3" rot="R90"/>
-<element name="R7" library="resistor" package="R0603" value="33R" x="23.9" y="12.1" rot="MR180"/>
+<element name="R7" library="resistor" package="R0603" value="120R" x="23.9" y="12.1" rot="MR180"/>
 <element name="S3" library="micro_switch" package="MICRO_SWITCH_3X6X2.5" value="MICRO_SWITCH_3X6X2.5S" x="29.4" y="10.858575" rot="R270"/>
 <element name="LED3" library="led" package="CHIPLED_0603" value="RED" x="27.3" y="2.8" rot="R90"/>
 <element name="R8" library="resistor" package="R0603" value="330R" x="23.9" y="10.3" rot="MR180"/>
 <element name="LED4" library="led" package="CHIPLED_0603" value="WHITE" x="29.9" y="5.4" rot="R90"/>
-<element name="R9" library="resistor" package="R0603" value="33R" x="23.9" y="13.9" rot="MR180"/>
+<element name="R9" library="resistor" package="R0603" value="120R" x="23.9" y="13.9" rot="MR180"/>
 <element name="LED5" library="led" package="CHIPLED_0603" value="GREEN" x="27.3" y="1.7" rot="R90"/>
-<element name="R10" library="resistor" package="R0603" value="330R" x="24.6" y="1.75"/>
+<element name="R10" library="resistor" package="R0603" value="270R" x="24.6" y="1.75"/>
 <element name="TP3" library="testpad" package="TP07R" value="TPSTP07R" x="23.08" y="3.62">
 <attribute name="TP_SIGNAL_NAME" value="" x="23.08" y="3.62" size="1.778" layer="27" display="off"/>
 </element>

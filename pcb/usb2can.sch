@@ -12562,7 +12562,7 @@ Source: www.kingbright.com</description>
 <part name="GND19" library="supply1" deviceset="GNDA" device=""/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="BLUE"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="R0603" value="33R"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="R0603" value="120R"/>
 <part name="S3" library="micro_switch" deviceset="MICRO_SWITCH_3X6X2.5" device="S"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="LED3" library="led" deviceset="LED" device="CHIPLED_0603" value="RED"/>
@@ -12570,10 +12570,10 @@ Source: www.kingbright.com</description>
 <part name="R8" library="resistor" deviceset="R-EU_" device="R0603" value="330R"/>
 <part name="LED4" library="led" deviceset="LED" device="CHIPLED_0603" value="WHITE"/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
-<part name="R9" library="resistor" deviceset="R-EU_" device="R0603" value="33R"/>
+<part name="R9" library="resistor" deviceset="R-EU_" device="R0603" value="120R"/>
 <part name="LED5" library="led" deviceset="LED" device="CHIPLED_0603" value="GREEN"/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="R0603" value="330R"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="R0603" value="270R"/>
 <part name="TP3" library="testpad" deviceset="TPS" device="TP07R" value="TPSTP07R"/>
 <part name="C20" library="rcl" deviceset="C-EU" device="C0603" value="100n"/>
 <part name="R11" library="resistor" deviceset="R-EU_" device="R0603" value="10k"/>
