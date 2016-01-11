@@ -1,2 +1,6 @@
 *.b#*
 *.s#*
+
+# C++
+build/
+.sconsign.dblite
