@@ -3721,7 +3721,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="48.0292" y1="11.275" x2="48.0542" y2="11.3" width="0.3" layer="1"/>
 <wire x1="48.0542" y1="11.3" x2="50.35" y2="11.3" width="0.5" layer="1"/>
 </signal>
-<signal name="N$2">
+<signal name="CANL">
 <contactref element="IC1" pad="15"/>
 <contactref element="R2" pad="2"/>
 <wire x1="48.0292" y1="7.465" x2="51.435" y2="7.465" width="0.5" layer="1"/>
@@ -3736,7 +3736,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="52.4" y1="6.8" x2="52.25" y2="6.65" width="0.5" layer="1"/>
 <wire x1="52.4" y1="7.15" x2="52.4" y2="6.8" width="0.5" layer="16"/>
 </signal>
-<signal name="N$3">
+<signal name="CANH">
 <contactref element="IC1" pad="17"/>
 <contactref element="R3" pad="2"/>
 <wire x1="48.0292" y1="10.005" x2="48.0342" y2="10" width="0.5" layer="1"/>

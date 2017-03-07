@@ -13137,7 +13137,7 @@ UART</text>
 <wire x1="119.38" y1="7.62" x2="121.92" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="CANL" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CAN_L"/>
 <wire x1="119.38" y1="20.32" x2="160.02" y2="20.32" width="0.1524" layer="91"/>
@@ -13148,7 +13148,7 @@ UART</text>
 <pinref part="JP1" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="CANH" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CAN_H"/>
 <wire x1="119.38" y1="22.86" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
