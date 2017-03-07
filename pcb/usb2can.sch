@@ -12515,7 +12515,7 @@ Source: www.kingbright.com</description>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="8.2k"/>
 <part name="GND7" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND8" library="supply1" deviceset="GNDA" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0805K" value="10u"/>
 <part name="U$1" library="stm32" deviceset="STM32F072C" device="T"/>
 <part name="GND9" library="supply1" deviceset="GNDA" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="56R"/>
@@ -12556,9 +12556,9 @@ Source: www.kingbright.com</description>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R0603" value="330R"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="CON1" library="micro_switch" deviceset="USB_A_MALE" device="SMD"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0805K" value="10n"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0805K" value="10u"/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C19" library="rcl" deviceset="C-EU" device="C0805K" value="10u"/>
 <part name="GND19" library="supply1" deviceset="GNDA" device=""/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="BLUE"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
@@ -12620,6 +12620,7 @@ be used.</text>
 <wire x1="43.18" y1="58.42" x2="43.18" y2="119.38" width="0.3048" layer="97"/>
 <text x="219.456" y="65.278" size="1.778" layer="97" ratio="12">Debug
 UART</text>
+<text x="68.58" y="-17.78" size="1.778" layer="97">C1 10n accordingly to ADM3053 datasheet text, p15</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="106.68" y="7.62"/>
@@ -12761,7 +12762,7 @@ UART</text>
 <instance part="C20" gate="G$1" x="83.82" y="76.2"/>
 <instance part="R11" gate="G$1" x="236.22" y="71.12" rot="R180"/>
 <instance part="+3V13" gate="G$1" x="248.92" y="71.12" rot="R270"/>
-<instance part="JP1" gate="G$1" x="193.04" y="22.86"/>
+<instance part="JP1" gate="G$1" x="193.04" y="20.32" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -13107,9 +13108,9 @@ UART</text>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GNDA"/>
-<wire x1="205.74" y1="20.32" x2="205.74" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="22.86" x2="205.74" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="GND"/>
-<wire x1="203.2" y1="20.32" x2="205.74" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="22.86" x2="205.74" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C19" gate="G$1" pin="2"/>
@@ -13137,30 +13138,28 @@ UART</text>
 <wire x1="119.38" y1="7.62" x2="121.92" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="CANL" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CAN_L"/>
 <wire x1="119.38" y1="20.32" x2="160.02" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="17.78" x2="160.02" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="20.32" x2="175.26" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
 <junction x="160.02" y="20.32"/>
-<wire x1="175.26" y1="20.32" x2="177.8" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="A"/>
-<wire x1="177.8" y1="22.86" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
+<label x="172.72" y="20.574" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="CANH" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="CAN_H"/>
 <wire x1="119.38" y1="22.86" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="17.78" x2="165.1" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="22.86" x2="175.26" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="22.86" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
 <junction x="165.1" y="22.86"/>
-<wire x1="175.26" y1="22.86" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="B"/>
-<wire x1="177.8" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
+<label x="172.72" y="23.114" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
