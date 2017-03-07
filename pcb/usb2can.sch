@@ -12515,7 +12515,7 @@ Source: www.kingbright.com</description>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="8.2k"/>
 <part name="GND7" library="supply1" deviceset="GNDA" device=""/>
 <part name="GND8" library="supply1" deviceset="GNDA" device=""/>
-<part name="C9" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C9" library="rcl" deviceset="C-EU" device="C0805K" value="10u"/>
 <part name="U$1" library="stm32" deviceset="STM32F072C" device="T"/>
 <part name="GND9" library="supply1" deviceset="GNDA" device=""/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="56R"/>
@@ -12556,9 +12556,9 @@ Source: www.kingbright.com</description>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R0603" value="330R"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="CON1" library="micro_switch" deviceset="USB_A_MALE" device="SMD"/>
-<part name="C7" library="rcl" deviceset="C-EU" device="C0805K" value="10n"/>
-<part name="C8" library="rcl" deviceset="C-EU" device="C0805K" value="10u"/>
-<part name="C19" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C7" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C8" library="rcl" deviceset="C-EU" device="C0805K" value="100n"/>
+<part name="C19" library="rcl" deviceset="C-EU" device="C0805K" value="10u"/>
 <part name="GND19" library="supply1" deviceset="GNDA" device=""/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_0603" value="BLUE"/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
@@ -12620,6 +12620,7 @@ be used.</text>
 <wire x1="43.18" y1="58.42" x2="43.18" y2="119.38" width="0.3048" layer="97"/>
 <text x="219.456" y="65.278" size="1.778" layer="97" ratio="12">Debug
 UART</text>
+<text x="68.58" y="-17.78" size="1.778" layer="97">C1 10n accordingly to ADM3053 datasheet text, p15</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="106.68" y="7.62"/>
@@ -13146,6 +13147,7 @@ UART</text>
 <wire x1="160.02" y1="20.32" x2="182.88" y2="20.32" width="0.1524" layer="91"/>
 <junction x="160.02" y="20.32"/>
 <pinref part="JP1" gate="G$1" pin="A"/>
+<label x="172.72" y="20.574" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CANH" class="0">
@@ -13157,6 +13159,7 @@ UART</text>
 <wire x1="165.1" y1="22.86" x2="182.88" y2="22.86" width="0.1524" layer="91"/>
 <junction x="165.1" y="22.86"/>
 <pinref part="JP1" gate="G$1" pin="B"/>
+<label x="172.72" y="23.114" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
