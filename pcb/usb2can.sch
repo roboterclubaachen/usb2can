@@ -12621,6 +12621,9 @@ be used.</text>
 <text x="219.456" y="65.278" size="1.778" layer="97" ratio="12">Debug
 UART</text>
 <text x="68.58" y="-17.78" size="1.778" layer="97">C1 10n accordingly to ADM3053 datasheet text, p15</text>
+<text x="121.92" y="71.12" size="1.778" layer="97">DFU</text>
+<text x="63.5" y="88.9" size="1.778" layer="97">RESET</text>
+<text x="236.22" y="53.34" size="1.778" layer="97">MODE</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="106.68" y="7.62"/>
