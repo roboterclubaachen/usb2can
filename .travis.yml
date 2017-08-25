@@ -1,0 +1,38 @@
+language: cpp
+compiler: gcc
+sudo: required
+dist: trusty
+
+addons:
+ apt:
+  sources:
+   - ubuntu-toolchain-r-test
+  packages:
+   - python
+
+before_install:
+ - export CC=gcc-4.8
+ - export CXX=g++-4.8
+ - ls -l $HOME/cache
+ - bash .travis.dep.sh
+ - export PATH="$HOME/toolchain/gcc-arm-none-eabi-6-2017-q2-update/bin:$PATH"
+ - echo $PATH
+ - ls -l $HOME/toolchain
+ - ls -l $HOME/toolchain/gcc-arm-none-eabi-6-2017-q2-update/bin
+ - which arm-none-eabi-g++
+ - arm-none-eabi-g++ --version
+ - pip install --upgrade pip wheel
+ - pip install jinja2 lxml
+ - pip install --egg SCons
+
+cache:
+ directories:
+  - $HOME/cache
+
+# these are ordered by longest running time, so that all instances complete
+# within the longest running instances, which is the first.
+env:
+ - TEST_DIR="tests/blink"
+ - TEST_DIR="tests/can"
+
+script: "cd $TEST_DIR && scons"
