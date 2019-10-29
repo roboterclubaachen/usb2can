@@ -4,3 +4,6 @@
 # C++
 build/
 .sconsign.dblite
+*.gpi
+*.dri
+*.l#?

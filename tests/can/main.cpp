@@ -19,7 +19,7 @@
 // Tested on hardware (Rev. 1 with V_ISOIN/V_ISOOUT pins on tranceiver connected)
 // on 2016-01-11 by Kevin.
 
-#include "../usb2can_rev1.hpp"
+#include "../board/usb2can_rev1.hpp"
 #include <xpcc/processing/timer.hpp>
 
 int main(void)
@@ -31,7 +31,7 @@ int main(void)
 	// Initialize Can
 	GpioInputB8::connect(Can1::Rx);
 	GpioOutputB9::connect(Can1::Tx, Gpio::OutputType::PushPull);
-	Can1::initialize<Board::DefaultSystemClock, Can1::Bitrate::kBps125>(9);
+	Can1::initialize<Board::systemClock, Can1::Bitrate::kBps125>(9);
 
 	// Receive every message
 	CanFilter::setFilter(0, CanFilter::FIFO0,
